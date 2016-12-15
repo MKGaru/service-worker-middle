@@ -25,3 +25,9 @@ Usage
 `http-server -p 3003 -c1`  
 
 and browse http://localhost:3003/
+
+
+Demo
+-----
+
+https://mkgaru.github.io/service-worker-middle/
