@@ -3,8 +3,6 @@
 declare const Response;
 declare const template;
 
-let tmp;
-
 importScripts('lib/sugar/dist/sugar-es5.js');
 Sugar.extend();
 
@@ -54,7 +52,6 @@ self.addEventListener('fetch', (event:FetchEvent)=>{
         await loader;
         const data = await parseRequestData(event.request);
         importScripts(`service/template/${path}.js`);
-        tmp = data;
         const html = template({
             // template parameter here
             ...data
