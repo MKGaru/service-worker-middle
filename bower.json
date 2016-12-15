@@ -1,0 +1,21 @@
+{
+  "name": "service-worker-middle",
+  "description": "high-end offline application with service worker.",
+  "main": "index.js",
+  "authors": [
+    "MKGaru"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sugar": "^2.0.4"
+  }
+}

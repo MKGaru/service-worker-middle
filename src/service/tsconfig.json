@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap":false,
+        "out": "../../public/service.js"
+    },
+    "files": [
+        "service.ts"
+    ]
+}

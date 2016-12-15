@@ -1,0 +1,22 @@
+{
+  "name": "service-worker-middle",
+  "version": "1.0.0",
+  "description": "high-end offline application with service worker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "author": "MKGaru",
+  "license": "MIT",
+  "devDependencies": {
+    "emitty": "^1.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-less": "^3.3.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

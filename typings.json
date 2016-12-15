@@ -1,0 +1,9 @@
+{
+  "name": "service-worker-middle",
+  "dependencies": {},
+  "globalDependencies": {
+    "service_worker_api": "registry:dt/service_worker_api#0.0.0+20161212190028",
+    "sugar": "github:andrewplummer/Sugar/sugar.d.ts#2.0.4",
+    "sugar-extended": "github:andrewplummer/Sugar/sugar-extended.d.ts#2.0.4"
+  }
+}
