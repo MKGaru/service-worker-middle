@@ -32,6 +32,8 @@ self.addEventListener('fetch', (event) => {
     // if request url has not '.' then response from this service.
     const scope = location.pathname.match(/(.*)\/[^/]*$/)[1];
     const path = (event.request.url.match(/\/\/[^\/]*\/([^?]*)/)[1] || '').from(scope.length);
+    if (!event.request.url.startsWith(location.origin + '/'))
+        return; // or response from cache.
     if (path.includes('.'))
         return; // or response from cache.
     if (!path)
